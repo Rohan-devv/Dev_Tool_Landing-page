@@ -1,0 +1,87 @@
+:root{
+    --text-color: rgb(210, 207, 207);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#202020;
+}
+
+nav {
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 8px;
+    padding: 10px 20px;
+
+}
+
+.links{
+    color:var(--text-color);
+    text-decoration: none;
+    margin-left: 15px;
+
+}
+.links:hover{
+    text-decoration: underline;
+}
+
+nav div button{
+padding: 5px 10px;
+background-color: #fff;
+border-radius: 100px;
+border-color: #808080;
+
+} 
+
+logos{
+    display: flex;
+    align-items: center;
+}
+
+#download-btn{
+    background-color:white;
+    color:black;
+}
+
+#sign-in-btn{
+    background-color: #202020;
+    color:var(--text-color)
+}
+
+main{
+    padding: 100px 165px;
+   
+
+}
+
+main h1{
+    text-align: left;
+    font-size: 24.375px;
+    color: rgb(210, 207, 207);
+    
+}
+main button{
+    background-color: black;
+    color:var(--text-color);
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    margin: 24px;
+    display: inline-block;
+    margin-left: 0;
+}
+
+main img{
+    border-radius: 0.5%;
+}
