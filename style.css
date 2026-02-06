@@ -87,10 +87,10 @@ main img{
 }
 
 section{
-    background-color: red;
+    background-color: #202020;
 }
 section h2{
-    background-color: rgb(225, 120, 120);
+    background-color: #202020;
     text-align: center;
     margin: 0px 0px 22.4px;
     color: var(--text-color);
@@ -98,17 +98,16 @@ section h2{
 }
 .logo-container{
     padding: 10px;
-    background-color: #150c0c;
+    background-color: #202020;
     display:flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
+    gap:10px;
 }
 .logo-box{
     background-color: #b1a8a8;
-    width: 180px;
-    height:140px;
+    width: 150px;
+    height:100px;
     border-radius: 10%;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
