@@ -116,7 +116,7 @@ section h2{
 .feature{
     background-color: #524e4e;
     margin:100px 100px 22.4px;
-    border-radius: 1%;
+    border-radius: 10px;
     
     
 }
@@ -160,3 +160,107 @@ section h2{
     color:#b1a8a8;
 }
 
+.cards-feature{
+    background-color:#202020;
+    padding: 80px 100px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 70px;
+    color:var(--text-color);
+}
+.card-container{
+    background-color:#202020;
+    
+    display:grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap:10px;
+}
+.card{
+    background-color: #524e4e;
+    height:300px;
+    border-radius: 10px;
+    padding:25px;
+    color:var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+   
+}
+.card-image {
+    border-radius: 80%;
+}
+.card-lower-portion{
+    margin-top:auto;
+    display: flex;
+    gap:10px;
+}
+.card-lower-portion span{
+    color:#dbd4d4;
+    font-weight: 150;
+}
+.card-lower-portion h5{
+    font-weight: 500;
+}
+
+#frontier{
+    text-align: start;
+}
+
+.diff-cards{
+    background-color:#202020;
+    padding: 80px 100px;
+}
+.diff-cards h1{
+    padding-left: 10px;
+    color: var(--text-color);
+    font-weight: 340;
+}
+.diff-card-container{
+    background-color:#202020;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    padding: 40px 20px;
+
+}
+.diff-card{
+    background-color:#524e4e;
+    height:500px;
+    border-radius: 8px; 
+    color: var(--text-color);
+    padding-top: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:12px;
+
+}
+
+.diff-card-image{
+    background-color: #fff;
+    width:350px;
+    height:350px;
+    border-radius: px;
+    
+}
+.diff-card-image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.diff-card-text p span{
+    color: rgb(254, 252, 252);
+}
+.link{
+    color:rgb(229, 116, 11);
+    text-decoration:none;
+}
+.link:hover{
+    text-decoration: underline;
+}

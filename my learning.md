@@ -39,3 +39,18 @@ div {
 
 
 ➡️ NO CENTERING (kyunki width = 100%)
+
+# Learning No--> 2
+
+// jab grid use kar rahe ho to fraction equally adjust karr lenge card ke height and weight ki tension lene ki jrurat nahi ahi 
+
+### Learning -->3
+Important rule remember forever
+
+To stick element to bottom inside card:
+
+parent → display:flex
+parent → flex-direction:column
+child → margin-top:auto
+
+Why your current align-items:fl
