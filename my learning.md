@@ -61,3 +61,5 @@ jab display grid laagao to align item start krne se pehla element top se hi star
 
 # Card learning 
 dekh koi bhi content upar top pe hota hai and loi bottom hota hai to bss to dono ko alg div me rakhh flex laga column wise or neeche wale content ka margin-top:auto krna hota hai bss 
+# Button 
+button ko humesha border: 1px solid color; se karo vrna even nahi dikhenge 
