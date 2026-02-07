@@ -56,8 +56,8 @@ logos{
 }
 
 #sign-in-btn{
-    background-color: #413f3f;
-    color:var(--text-color);
+    background-color:#202020;
+    color:white;
     
     
      border: 1px solid #fff;
